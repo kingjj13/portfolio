@@ -1,0 +1,103 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+ 
+  background-image: url("fond.png");
+  background-size: 100%;
+  font-family: courier new, monospace,;
+
+}
+
+
+/* Global*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* en tete **/
+header{
+  background:#000000;
+  color:#ffffff;
+  padding-top:60px;
+  min-height:110px;
+  border-bottom:#ff0000 15px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:initial;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 10px 0 10px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:20px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:initial;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* arriere plan */
+#arriereplan{
+  min-height:800px;
+  background:url('imge.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+
+/* Parcours scolaire */
+ul#parcours li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#000000;
+  text-align: center;
+}
